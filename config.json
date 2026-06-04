@@ -1,0 +1,35 @@
+{
+    "thermal": {
+        "wifi_host": "192.168.3.166",
+        "wifi_port": 5001,
+        "lepton_baud": 921600,
+        "default_device": "simulator",
+        "alarm_threshold": 70
+    },
+    "mcu": {
+        "baud": 115200
+    },
+    "stm32": {
+        "port": "COM3",
+        "baud": 115200
+    },
+    "camera": {
+        "network_url": "http://192.168.3.171:8080/stream",
+        "visible_index": 0
+    },
+    "sensor_relay": {
+        "enabled": false,
+        "host": "192.168.3.171",
+        "port": 6001
+    },
+    "lepton_relay": {
+        "enabled": true,
+        "host": "192.168.3.171",
+        "port": 6002
+    },
+    "video_relay": {
+        "enabled": true,
+        "host": "192.168.3.171",
+        "port": 8080
+    }
+}

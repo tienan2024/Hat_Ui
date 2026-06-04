@@ -1,0 +1,13 @@
+{
+  "name": "sensor-relay",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "传感器中继服务 - 串口(MCU) <-> TCP(PC) 桥接",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js"
+  },
+  "dependencies": {
+    "serialport": "^13.0.0"
+  }
+}

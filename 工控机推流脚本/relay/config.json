@@ -1,0 +1,23 @@
+{
+  "serial": {
+    "port": "COM3",
+    "baudRate": 115200
+  },
+  "tcp": {
+    "port": 6001
+  },
+  "lepton": {
+    "enabled": true,
+    "port": "COM5",
+    "baudRate": 921600,
+    "tcpPort": 6002
+  },
+  "video": {
+    "enabled": true,
+    "device": "USB Camera",
+    "width": 640,
+    "height": 480,
+    "fps": 15,
+    "port": 8080
+  }
+}
