@@ -41,6 +41,12 @@ Hat_Ui_V4.0/
 pip install PySide6 opencv-python pyserial ultralytics
 ```
 
+> 注意：YOLO 依赖（`ultralytics`）会连带安装 PyTorch（GPU 支持约 1.5GB，CPU 版本约 300MB）。如仅需 CPU 推理，可单独安装 CPU 版本：
+>
+> ```bash
+> pip install ultralytics torch torchvision --index-url https://download.pytorch.org/whl/cpu
+> ```
+
 > PyQt5 可作为备选（自动降级）
 
 ### 运行
